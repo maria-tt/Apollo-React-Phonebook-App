@@ -12,7 +12,7 @@ The Server Folder contains an instance of Apollo Server.
 
 npm install
 
-npm run start
+npm start
 
 ## The full list of the commands that can be run from this root folder:
 
