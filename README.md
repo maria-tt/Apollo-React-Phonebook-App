@@ -11,6 +11,7 @@ The Server Folder contains an instance of Apollo Server.
 **To run the development version of the project run the following commands from the root folder:**
 
 npm install
+
 npm run start
 
 ## The full list of the commands that can be run from this root folder:
