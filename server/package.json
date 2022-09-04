@@ -1,0 +1,9 @@
+{
+    "name": "apollo-server",
+    "dependencies": {
+        "apollo-server": "^3.10.2",
+        "@apollo/server": "^4.0.0-alpha.10",
+        "apollo-server-core": "^3.10.2",
+        "graphql": "^16.6.0"
+    }
+}

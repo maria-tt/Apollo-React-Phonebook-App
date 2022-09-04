@@ -1,0 +1,19 @@
+{
+    "name": "apollo-react-phonebook",
+    "version": "1.0.0",
+    "description": "App provides a user interface for searching through a phonebook",
+    "main": "server/app.js",
+    "scripts": {
+        "client": "cd client && npm start",
+        "server": "cd server && node server.js",
+        "install": "cd client && npm install && cd ../server && npm install && cd ../",
+        "start": "concurrently  \"npm run server\" \"npm run client\" "
+    },
+    "author": "Maria Turchenko",
+    "bugs": {
+        "url": "https://github.com/maria-tt/Apollo-React-Phonebook-App"
+    },
+    "dependencies": {
+        "concurrently": "^7.3.0"
+    }
+}
